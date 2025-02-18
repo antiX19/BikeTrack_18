@@ -1,4 +1,4 @@
-package com.example.bike_tracker;
+package com.example.biketracker;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.exemple.applicationble.R;
+import com.example.bike_tracker.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         buttonVelo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Lancement de l'activité d'identification pour "J'ai un vélo"
                 Intent intent = new Intent(MainActivity.this, IdentificationActivity.class);
                 startActivity(intent);
             }

@@ -1,4 +1,4 @@
-package com.example.bike_tracker;
+package com.example.biketracker;
 
 import android.content.Context;
 
